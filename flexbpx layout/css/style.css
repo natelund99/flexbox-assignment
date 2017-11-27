@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+
+[class^="box"] {
+  background-color: yellow;
+  padding:10px;  
+}
+
+.flex {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 100vh;
+    
+}
+
+.box1 {
+    width: 100%;
+    align-self: stretch;
+}
+
+.box2 {
+    width: 49%;
+    
+}
+    
+.box3 {
+    width: 49%;
+}
+    
+
+.box4 {
+    width: 24%;
+}
+    
+
+.box5 {
+    width: 24%;
+}
+
+.box6 {
+    width: 24%;
+}
+
+.box7 {
+    width: 24%;
+}
+
+.box8 {
+    width: 32%;
+}
+
+.box9 {
+   width: 32%; 
+}
+
+.box10{
+    width: 32%;
+}
